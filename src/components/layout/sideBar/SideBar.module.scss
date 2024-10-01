@@ -1,0 +1,29 @@
+@import '@assets/variables';
+
+.sideBar {
+	width: 350px;
+	height: 100vh;
+	background-color: $bg-extra-color;
+
+	.content {
+		padding: 50px 20px 40px 20px;
+
+		.firstButton {
+			margin-bottom: 20px;
+		}
+		.button {
+			margin-top: 10px;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.sideBar {
+		width: 250px;
+	}
+}
+@media (max-width: 992px) {
+	.sideBar {
+		display: none;
+	}
+}
